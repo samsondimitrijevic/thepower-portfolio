@@ -1,0 +1,76 @@
+.svg {
+  width: 20em;
+  height: 20em;
+}
+
+.svg > image {
+  width: 100%;
+  height: 100%;
+}
+
+.thepower-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr) );
+  gap: 1em;
+}
+
+.thepower-gallery > .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.thepower-gallery > .card * {
+  pointer-events: none;
+}
+
+.star-container > .star,
+.star-container> .no-rating {
+  font-size: 1.5em;
+}
+
+.score {
+  padding-left: 0.5rem;
+}
+
+.thepower-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  top: 15vh;
+  margin: 0 auto;
+  max-height: 60vh;
+  max-width: 80%;
+  width: 100%;
+  z-index: 1;
+  background-color: #f3f3f3;
+  color: var(--secondary-color);
+  overflow-y: scroll;
+}
+
+.thepower-modal button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.modal-body {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .thepower-modal {
+    max-width: 80%;
+  }
+}

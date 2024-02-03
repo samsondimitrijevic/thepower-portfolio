@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portolio</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <nav>
+        <a href="#" class="nav-icon">🏠</a>
+      </nav>
+      <button id="menu-toggle" class="nav-icon">🍔</button>
+
+      <div id="menu-content" class="menu-content">
+        <div class="favorites">
+          <h3>Favorite Documentation</h3>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            name="search"
+            id="menu-search"
+            placeholder="Search Documentation"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div id="app">
+      <div id="carousel-container"></div>
+      <div id="gallery-container"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
