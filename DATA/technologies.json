@@ -1,0 +1,68 @@
+{
+  "technologies": [
+    {
+      "_id": "1",
+      "name": "HTML",
+      "logo": "images/html.svg",
+      "reviews": 33,
+      "score": 3.8787848484848495,
+      "id": "765b"
+    },
+    {
+      "_id": "2",
+      "name": "CSS",
+      "logo": "images/css3.svg",
+      "reviews": 16,
+      "score": 4.12499375,
+      "id": "be46"
+    },
+    {
+      "_id": "3",
+      "name": "JavaScript",
+      "logo": "images/javascript.svg",
+      "reviews": 5,
+      "score": 4.2,
+      "id": "08c8"
+    },
+    {
+      "_id": "4",
+      "name": "React",
+      "logo": "images/react.svg",
+      "reviews": 2,
+      "score": 4.5,
+      "id": "58d5"
+    },
+    {
+      "_id": "5",
+      "name": "Typescript",
+      "logo": "images/typescript.svg",
+      "reviews": 3,
+      "score": 4.333333333333333,
+      "id": "0061"
+    },
+    {
+      "_id": "6",
+      "name": "Node",
+      "logo": "images/node-js.svg",
+      "reviews": 1,
+      "score": 3,
+      "id": "74ec"
+    },
+    {
+      "_id": "7",
+      "name": "PostgreSQL",
+      "logo": "images/postgresql.svg",
+      "reviews": 0,
+      "score": 0,
+      "id": "eed1"
+    },
+    {
+      "_id": "8",
+      "name": "MongoDB",
+      "logo": "images/mongodb.svg",
+      "reviews": 0,
+      "score": 0,
+      "id": "1ae3"
+    }
+  ]
+}
